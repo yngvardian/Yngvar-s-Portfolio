@@ -1,0 +1,124 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    color: #ffff;
+}
+
+.conteiner {
+    margin-top: 10px;
+    max-width: 1895px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+#navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+ul {
+    position: relative;
+    display: flex;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a .fa-brands {
+    font-size: 2em;
+    color: #222;
+}
+
+ul li a::before {
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+ul li:nth-child(1) a::before {
+    content: "\f16d";
+    background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid #dc2743;
+}
+
+ul li:nth-child(2) a::before {
+    content: "\f099";
+    color: #1da1f2;
+    border-bottom: 1px solid #1da1f2;
+}
+
+ul li:hover a::before {
+    height: 100%;
+}
+
+.first {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.two-fers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.two-fers-first {
+    width: 49%;
+}
+
+.two-fers-second {
+    width: 49%;
+}
+
+.two-second-first {
+    width: 36%;
+}
+
+.two-second-second {
+    width: 63%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0b0e14;
+}
