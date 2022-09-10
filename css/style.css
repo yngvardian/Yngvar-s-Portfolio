@@ -164,4 +164,5 @@ ul li:hover a::before {
 
 body {
     background: #0b0e14;
+    overflow-x:hidden;
 }
