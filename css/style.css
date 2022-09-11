@@ -18,7 +18,7 @@ h1 {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    background-color: #0b0e14;
+    background: rgba(0, 0, 0, 0.4);
     padding-top: 10px;
     max-width: 1895px;
     padding-right: 15px;
